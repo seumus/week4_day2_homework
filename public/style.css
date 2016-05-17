@@ -1,0 +1,26 @@
+
+
+body {
+  background-image: url('/images/shoes.jpg');
+  background-size: cover;
+  /*background-repeat: no-repeat;*/
+  font-family: fantasy;;
+  font-weight: bold;
+  color: brown;
+  font-size: 2em;
+  max-width: 100%;
+  width: 90%;
+}
+
+form {
+  background-color: rgba(178,108,105,0.6);
+  border-radius: 3px;
+}
+
+input {
+  color: brown;
+}
+
+label {
+  color: brown;
+}

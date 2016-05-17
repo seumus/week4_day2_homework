@@ -1,0 +1,15 @@
+<h2>Shoe Orders</h2>
+
+<% @customers.each do |customer|  %>
+  <b>Name:</b>
+  <p><%= customer.name %></p>
+
+  <b>Address:</b>
+  <p><%= customer.address %></p>
+
+  <b>Order:</b>
+  <p><%= customer.quantity%> shoes at size <%= customer.size %></p>
+
+  <hr>
+
+<% end%>
